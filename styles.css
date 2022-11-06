@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+body{
+    background:black;
+}
+.post{
+    background: white;
+    width: 600px;
+    height: auto;
+    margin: auto;
+}
+.post-header, .footer-post{
+    padding: 20px;
+}
+div.post img{
+    width:100%;
+}
+div.container{
+    width: 600px;
+    margin: auto;
+}
+.icon-align-right{
+    display:inline-block;
+}
+.icon-container{
+    display: flex;
+    justify-content: space-between;
+}
+.title-header{
+    display: flex;
+}
+.text-header{
+    display: inline-block;
+    vertical-align: top;
+}
+.icon-header{
+    width: 30px;
+}
+.footer-text p{
+    padding-top: 20px;
+}
